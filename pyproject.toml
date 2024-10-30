@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "nmls-scraper"
+version = "0.1.0"
+description = ""
+authors = ["zaidejaz <zaidejaz521@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+bs4 = "^0.0.2"
+requests = "^2.32.3"
+pandas = "^2.2.2"
+selenium = "^4.22.0"
+webdriver-manager = "^4.0.1"
+pytesseract = "^0.3.10"
+captcha-solver = "^0.1.5"
+beautifulsoup4 = "^4.12.3"
+pillow = "^10.3.0"
+python-dotenv = "^1.0.1"
+2captcha-python = "^1.2.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
